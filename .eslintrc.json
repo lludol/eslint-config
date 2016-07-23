@@ -1,0 +1,66 @@
+{
+	"env": {
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"extends": "eslint:recommended",
+	"rules": {
+		"arrow-parens": [
+			2,
+			"always"
+		],
+		"arrow-spacing": 2,
+		"brace-style": [
+			2,
+			"1tbs",
+			{ "allowSingleLine": true }
+		],
+		"eqeqeq": [
+			2,
+			"smart"
+		],
+		"indent": [
+			2,
+			"tab"
+		],
+		"linebreak-style": [
+			2,
+			"unix"
+		],
+		"no-console": 2,
+		"no-trailing-spaces": 2,
+		"no-var": 2,
+		"prefer-arrow-callback": 1,
+		"prefer-const": 2,
+		"prefer-rest-params": 2,
+		"prefer-reflect": 2,
+		"prefer-template": 2,
+		"quotes": [
+			2,
+			"single"
+		],
+		"require-jsdoc": [
+			2,
+			{
+				"require": {
+					"FunctionDeclaration": true,
+					"MethodDefinition": true,
+					"ClassDeclaration": true
+				}
+			}
+		],
+		"semi": [
+			2,
+			"always"
+		],
+		"valid-jsdoc": [
+			2,
+			{
+				"requireReturn": false
+			}
+		],
+		"yoda": 2
+	}
+}

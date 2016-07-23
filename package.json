@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-lludol",
+  "version": "0.0.1",
+  "description": "The personal ESLint config of lludol.",
+  "main": "main.js",
+  "files": [
+    "main.js",
+    "eslintrc.json"
+  ],
+  "scripts": {
+    "prepublish": "safe-publish-latest && eslint-find-rules --unused && npm test",
+    "lint": "eslint . --env node",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lludol/eslint-config.git"
+  },
+  "keywords": [
+    "lludol",
+    "estlint-config",
+    "lludol-eslint-config"
+  ],
+  "author": "lludol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lludol/eslint-config/issues"
+  },
+  "homepage": "https://github.com/lludol/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-find-rules": "^1.11.1",
+    "safe-publish-latest": "^1.0.0"
+  }
+}
