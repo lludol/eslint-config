@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lludol",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The personal ESLint config of lludol.",
   "main": "main.js",
   "files": [
@@ -8,7 +8,7 @@
     "eslintrc.json"
   ],
   "scripts": {
-    "prepublish": "safe-publish-latest && eslint-find-rules --unused && npm test",
+    "prepublish": "safe-publish-latest || (npm test && eslint-find-rules --unused)",
     "lint": "eslint . --env node",
     "test": "npm run lint"
   },
