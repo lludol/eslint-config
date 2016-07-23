@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-lludol",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The personal ESLint config of lludol.",
   "main": "main.js",
   "files": [
     "main.js",
-    "eslintrc.json"
+    ".eslintrc.json"
   ],
   "scripts": {
     "prepublish": "safe-publish-latest || (npm test && eslint-find-rules --unused)",
