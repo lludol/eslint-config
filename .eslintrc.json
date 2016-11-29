@@ -47,6 +47,7 @@
 		"no-param-reassign": 0,
 		"no-prototype-builtins": 0,
 		"no-return-await": 2,
+		"no-tabs": 0,
 		"no-trailing-spaces": 2,
 		"no-underscore-dangle": 0,
 		"no-var": 2,
