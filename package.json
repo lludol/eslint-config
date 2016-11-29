@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lludol",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "The personal ESLint config of lludol.",
   "main": "main.js",
   "files": [
@@ -31,8 +31,10 @@
     "eslint": "^3.1.1"
   },
   "devDependencies": {
-    "eslint": "^3.1.1",
-    "eslint-find-rules": "^1.11.1",
-    "safe-publish-latest": "^1.0.0"
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-find-rules": "^1.14.3",
+    "eslint-plugin-import": "^2.2.0",
+    "safe-publish-latest": "^1.1.1"
   }
 }
