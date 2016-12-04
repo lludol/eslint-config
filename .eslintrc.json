@@ -11,13 +11,6 @@
 			"1tbs",
 			{ "allowSingleLine": true }
 		],
-		"capitalized-comments": [
-			2,
-			"always",
-			{
-				"ignoreInlineComments": true
-			}
-		],
 		"class-methods-use-this": 0,
 		"eqeqeq": [
 			2,
@@ -25,6 +18,7 @@
 		],
 		"func-names": 0,
 		"global-require": 1,
+		"import/no-dynamic-require": 0,
 		"import/no-extraneous-dependencies": 0,
 		"indent": [
 			2,
