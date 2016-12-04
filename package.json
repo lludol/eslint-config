@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lludol",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "The personal ESLint config of lludol.",
   "main": "main.js",
   "files": [
