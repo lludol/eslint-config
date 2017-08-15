@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/lludol/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^3.1.1"
+    "eslint": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^3.11.1",
