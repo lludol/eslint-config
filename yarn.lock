@@ -281,11 +281,12 @@ eslint-config-airbnb-base@^13.0.0:
     object.entries "^1.0.4"
 
 eslint-find-rules@^3.1.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-find-rules/-/eslint-find-rules-3.3.1.tgz#46a86c2fc9e9be2b33235234e1820e1f045793a9"
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-find-rules/-/eslint-find-rules-3.5.0.tgz#fe3739b68a3cfb8c596f3bac1f3f99b2d6f8ea07"
   dependencies:
     cliui "^3.2.0"
     eslint-rule-documentation "^1.0.0"
+    glob "^7.1.4"
     path-is-absolute "^1.0.1"
     which "^1.2.8"
     window-size "0.3.0"
@@ -509,9 +510,9 @@ get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
 
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
+glob@^7.0.3, glob@^7.0.5, glob@^7.1.2, glob@^7.1.4:
+  version "7.1.6"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
