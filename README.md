@@ -7,6 +7,8 @@ This is my personal ESLint config for ES6 JavaScript style.
 
 ```bash
 npm install --save-dev eslint eslint-config-lludol
+# or
+yarn add --dev eslint eslint-config-lludol
 ```
 
 ## Usage
