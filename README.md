@@ -1,5 +1,6 @@
 # eslint-config
 [![npm version](https://badge.fury.io/js/eslint-config-lludol.svg)](https://badge.fury.io/js/eslint-config-lludol)
+![nodejs workflow](https://github.com/lludol/eslint-config/actions/workflows/nodejs.yml/badge.svg)
 
 This is my personal ESLint config for ES6 JavaScript style.
 
