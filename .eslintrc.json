@@ -18,6 +18,16 @@
 		],
 		"func-names": 0,
 		"global-require": 1,
+		"import/extensions": [
+			"error",
+			"ignorePackages",
+			{
+				"js": "never",
+				"jsx": "never",
+				"ts": "never",
+				"tsx": "never"
+			}
+		],
 		"import/no-dynamic-require": 0,
 		"import/no-extraneous-dependencies": 0,
 		"indent": [
@@ -78,5 +88,12 @@
 			}
 		],
 		"yoda": 2
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [".js", ".jsx", ".ts", ".tsx"]
+			}
+		}
 	}
 }
